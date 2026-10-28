@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, BookOpen, CheckCircle2 } from 'lucide-react';
 import { COMPANY_STATS } from '../data/courses';
+import heroImage from '../assets/images/hero_education_seminar_1793177292719.jpg';
 
 interface HeroProps {
   onSelectConsultation: () => void;
@@ -80,7 +81,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectConsultation, onSelectCourse
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-xl bg-slate-100">
               <img
-                src="/src/assets/images/hero_education_seminar_1793177292719.jpg"
+                src={heroImage}
                 alt="비트교육컨설팅 실무 IT 및 AI 교육 세미나 현장"
                 className="w-full h-[340px] sm:h-[420px] object-cover"
                 referrerPolicy="no-referrer"

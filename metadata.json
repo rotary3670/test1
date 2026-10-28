@@ -2,5 +2,7 @@
   "name": "비트교육컨설팅",
   "description": "개발자로의 도약과 실무의 답을 제안하는 실무 중심 IT 및 AI 교육 컨설팅 비트교육컨설팅",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

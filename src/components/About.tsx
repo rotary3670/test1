@@ -1,6 +1,7 @@
 import React from 'react';
 import { CORE_PHILOSOPHY } from '../data/courses';
 import { Sparkles, Users, Award, ShieldCheck } from 'lucide-react';
+import aboutImage from '../assets/images/about_mentoring_consulting_1793177293520.jpg';
 
 export const About: React.FC = () => {
   return (
@@ -69,7 +70,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-lg bg-slate-100">
               <img
-                src="/src/assets/images/about_mentoring_consulting_1793177293520.jpg"
+                src={aboutImage}
                 alt="비트교육컨설팅 1:1 실무 멘토링 및 로드맵 상담"
                 className="w-full h-[360px] sm:h-[440px] object-cover"
                 referrerPolicy="no-referrer"

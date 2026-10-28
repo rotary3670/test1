@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { COURSES } from '../data/courses';
 import { CourseCategory, CourseItem } from '../types';
 import { Clock, Users, ArrowUpRight, ChevronDown, ChevronUp, Check, BookOpen } from 'lucide-react';
+import courseWorkshopImage from '../assets/images/course_ai_practical_1793177293490.jpg';
 
 interface CoursesProps {
   onSelectCourseForConsultation: (courseName: string, category: '일반과정' | '국비과정') => void;
@@ -112,7 +113,7 @@ export const Courses: React.FC<CoursesProps> = ({ onSelectCourseForConsultation 
             </div>
             <div className="lg:col-span-5 h-64 lg:h-full min-h-[260px] relative">
               <img
-                src="/src/assets/images/course_ai_practical_1793177293490.jpg"
+                src={courseWorkshopImage}
                 alt="실무 AI 및 IT 실습 워크숍 전경"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
